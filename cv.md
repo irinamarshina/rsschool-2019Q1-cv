@@ -16,6 +16,13 @@ I am working as programmer now and i like my job.
 Every year there are more new products in the field of web programming that makes move faster and work harder
 Now I want to take a The Rolling Scopes School course to improve my skills
 
+### Work examples
+
+At the last time I am making different sites on CMS. There is some of them
+
+* [https://iskraled.ru/](https://iskraled.ru/)
+* [http://metmag.by/](http://metmag.by/)
+
 ### Skills
 
 HTML5, CSS3, Bootstrap 4, JavaScript, OOP, PHP
