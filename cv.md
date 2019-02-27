@@ -11,7 +11,10 @@
 
 ### Summary
 
-
+I Interested to work as front-end developer. I think it is interesting and promising work, where concentrating all of the high technologies. 
+I am working as programmer now and i like my job. 
+Every year there are more new products in the field of web programming that makes move faster and work harder
+Now I want to take a The Rolling Scopes School course to improve my skills
 
 ### Skills
 
