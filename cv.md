@@ -32,7 +32,7 @@ HTML5, CSS3, Bootstrap 4, JavaScript, OOP, PHP
 I graduated from Gomel State University named after Francis Skaryna
 Faculty of Automated Information Processing Systems
 I started learning WEB on HTML-Academy and i like it. I continued to study the web independent watching educational videos on youtube
-I'm taking The Rolling Scopes School Epam (*JavaScript/Front-end course*): [https://rs.school/js/](https://rs.school/js/) courses now
+I'm taking [The Rolling Scopes School Epam (*JavaScript/Front-end course*)](https://rs.school/js/) courses now
 
 ### Languages
 
