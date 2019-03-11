@@ -1,17 +1,10 @@
 html, body {
 	margin: 0;
 	padding: 0;
-	outline: 0;
-	display: block;
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	background-color: #f5f5f5;
 	color: #616161;
-	-webkit-font-smoothing: subpixel-antialiased;
-	-webkit-text-stroke: 1px transparent;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-overflow-scrolling: touch;
 }
 .section {
 	position: relative;
@@ -20,16 +13,6 @@ html, body {
 }
 .section .section-title {
 	margin-bottom: 18px;
-}
-.section .section-title .title-icon {
-	margin-right: 20px;
-	color: #06A763;
-}
-.section .section-title img {
-	width: 66px;
-	padding: 10px;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-	margin: -2px 12px 12px 12px;
 }
 .container {
 	padding-right: 15px;
@@ -99,15 +82,6 @@ p, a, li {
 h6 {
 	font-size: 1.4em;
 }
-.black {
-	background-color: black !important;
-}
-.hide-overflow {
-	overflow: hidden !important;
-}
-.toast {
-	background-color: #1976D2;
-}
 .card {
 	position: relative;
 	background-color: #fff;
@@ -117,7 +91,7 @@ h6 {
 	margin: 8px 0;
 }
 .card .card-content {
-	padding: 10px;
+	padding: 10px 30px;
 }
 .card .card-content p {
 	margin: 0;
@@ -152,24 +126,13 @@ h6 {
 	margin: -33px 3px 0 0;
 }
 #v-card-holder #v-card .info-headings {
-	max-width: 514px;
+	max-width: 500px;
 }
 #v-card-holder #v-card .info-headings h4 {
 	display: block;
 	width: 100%;
 	font-weight: 900;
 	color: #fff;
-	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
-}
-#v-card-holder #v-card .info-headings h6 {
-	display: block;
-	width: 100%;
-	font-weight: 300;
-	margin-top: -10px;
-	margin-bottom: 30px;
-	font-size: 1.2em;
-	color: #fff;
-	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
 }
 #v-card-holder #v-card .infos {
 	max-width: 515px;
@@ -203,8 +166,8 @@ h6 {
 	z-index: 1;
 }
 #v-card-holder #v-card #profile img {
-	width: 400px;
-	height: auto;
+	width: 450px;
+	/* height: auto; */
 }
 #v-card-holder #v-card #profile .slant {
 	top: 0;
@@ -212,7 +175,7 @@ h6 {
 	position: absolute;
 	border-style: solid;
 	border-width: 400px 0 0 100px;
-	border-color: rgba(223, 50, 50, 0) transparent transparent #06A763;
+	border-color: transparent transparent transparent #06A763;
 }
 @media screen and (max-width:767px) {
 	#v-card-holder #v-card {
@@ -244,14 +207,6 @@ h6 {
 		opacity: 0;
 		overflow: hidden;
 	}
-	#v-card-holder #v-card #profile .add-btn {
-		display: none;
-	}
-	#v-card-holder #v-card .social {
-		top: 0;
-		margin-left: 5px;
-		margin-bottom: 4px;
-	}
 	#v-card-holder #v-card .infos {
 		display: table;
 		margin: 0 auto;
@@ -263,9 +218,6 @@ h6 {
 		max-width: 100%;
 		padding: 0;
 		margin: 0 auto 9px;
-	}
-	#v-card-holder #v-card .links #first_one {
-		margin-left: 0;
 	}
 	#v-card-holder #v-card .info-headings {
 		max-width: 100%;
@@ -338,7 +290,6 @@ h6 {
 	width: 50px;
 	height: 50px;
 	border-radius: 100%;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 	z-index: 2;
 	color: #fff;
 	text-align: center;
@@ -350,14 +301,12 @@ h6 {
 	text-align: center;
 	font-size: 24px;
 	margin-top: 26%;
-	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
 }
 .timeline-block .timeline-dot h6 {
 	padding: 0;
 	font-size: 30px;
 	font-weight: bold;
 	margin-top: 8px;
-	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.29);
 }
 .timeline-block .timeline-content {
 	position: relative;
@@ -365,7 +314,7 @@ h6 {
 	margin-right: 0;
 	z-index: 1;
 	margin-bottom: 5px;
-	border-left: 5px solid #1976D2;
+	border-left: 5px solid #e97926;
 	width: 44%;
 }
 .timeline-block .timeline-content::before {
@@ -489,11 +438,6 @@ h6 {
 #portfolios #portfolios-card .tab-content {
 	margin: 0 10px;
 }
-#portfolios #portfolios-card .tab-content figure.port-effect-up:hover figcaption::before, #portfolios #portfolios-card .tab-content figure.port-effect-up:hover p {
-	opacity: 1;
-	-webkit-transform: translate3d(0, 0, 0);
-	transform: translate3d(0, 0, 0);
-}
 @media screen and (max-width:747px) {
 	#portfolios #portfolios-card .tab-content .big {}
 }
@@ -502,152 +446,12 @@ h6 {
 		width: 66.6%;
 	}
 }
-#portfolios #portfolios-card .tab-content .grid {
-	position: relative;
-	margin: 0 auto;
-	padding: 5px 7px 7px 5px;
-	list-style: none;
-	text-align: center;
-}
-#portfolios #portfolios-card .tab-content .grid figure {
-	position: relative;
-	float: left;
-	margin: 0;
-	width: 100%;
-	background: transparent;
-	text-align: center;
-	cursor: pointer;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-	overflow: hidden !important;
-	padding: 2px !important;
-}
-#portfolios #portfolios-card .tab-content .grid figure img {
-	position: relative;
-	display: block;
-	width: 100%;
-	opacity: 0.8;
-}
-#portfolios #portfolios-card .tab-content .grid figure h2 {
-	word-spacing: -0.15em;
-	font-weight: 300;
-	font-size: 18px;
-	margin: 0;
-}
-#portfolios #portfolios-card .tab-content .grid figure h2 span {
-	font-weight: 800;
-}
-#portfolios #portfolios-card .tab-content .grid figure h2 i {
-	display: block;
-	padding: 9px;
-	margin-top: 24px;
-	font-size: 48px;
-}
-#portfolios #portfolios-card .tab-content .grid figure p {
-	margin: 0;
-	letter-spacing: 1px;
-	font-size: 56.5%;
-}
-@media screen and (min-width:540px) and (max-width:766px) {
-	#portfolios #portfolios-card .tab-content .grid {
-		max-width: 50%;
-	}
-}
-#portfolios #portfolios-card .tab-content figure.port-effect-scale img {
-	-webkit-transition: opacity 0.60s, -webkit-transform 0.60s;
-	transition: opacity 0.60s, transform 0.60s;
-}
-#portfolios #portfolios-card .tab-content figure.port-effect-scale figcaption {
-	-webkit-transition: background-color 0.60s;
-	transition: background-color 0.60s;
-}
-#portfolios #portfolios-card .tab-content figure.port-effect-scale figcaption::before {
-	background: rgba(0, 0, 0, 0.7);
-	position: absolute;
-	top: -1px;
-	right: -1px;
-	background: rgba(0, 0, 0, 0.7);
-	bottom: -1px;
-	left: -1px;
-	content: '';
-	opacity: 0;
-	-webkit-transition: opacity 0.60s, -webkit-transform 0.60s;
-	transition: opacity 0.60s, transform 0.60s;
-}
-#portfolios #portfolios-card .tab-content figure.port-effect-scale h2 {
-	position: absolute;
-	top: 55%;
-	left: 0;
-	width: 100%;
-	color: rgba(72, 76, 97, 0.22);
-	-webkit-transition: -webkit-transform 0.35s, color 0.35s;
-	transition: transform 0.35s, color 0.35s;
-	-webkit-transform: translate3d(0, -50%, 0);
-	transform: translate3d(0, -50%, 0);
-}
-#portfolios #portfolios-card .tab-content figure.port-effect-scale p {
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	padding: 2em;
-	width: 100%;
-	opacity: 0;
-	color: #fff;
-	-webkit-transition: opacity 0.60s, -webkit-transform 0.60s;
-	transition: opacity 0.60s, transform 0.60s;
-	-webkit-transform: scale(0);
-	transform: scale(0);
-}
-#portfolios #portfolios-card .tab-content figure.port-effect-scale:hover {}
-#portfolios #portfolios-card .tab-content figure.port-effect-scale:hover h2 {
-	color: #1976D2;
-	-webkit-transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0);
-	transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0);
-	opacity: 1;
-}
-#portfolios #portfolios-card .tab-content figure.port-effect-scale:hover figcaption::before {
-	opacity: 1;
-	background: rgba(0, 0, 0, 0.7);
-}
-#portfolios #portfolios-card .tab-content figure.port-effect-scale:hover p {
-	opacity: 1;
-	-webkit-transform: scale(1);
-	transform: scale(1);
-}
-#portfolios #portfolios-card .tab-content figure.port-effect-scale:hover img {
-	-webkit-transform: scale(1.2);
-	transform: scale(1.2);
-}
-#portfolios .btn-large {
-	color: #1976D2 !important;
-	background: #f5f5f5 !important;
-	margin-bottom: 10px !important;
-}
 footer {
 	width: 100%;
 	height: auto;
 	color: #fff;
 	margin-top: -18px;
 	margin-bottom: 9px;
-}
-.back-button {
-	height: 45px;
-	width: 45px;
-	cursor: pointer;
-	font-size: 28px;
-	background: #1976D2;
-	border: 1px solid #1976D2;
-	text-align: center;
-	position: fixed;
-	top: 21px;
-	left: 18px;
-	z-index: 8;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-	transition: .3s;
-}
-.back-button i {
-	color: #fff;
-	padding-right: 3px;
-	padding-top: 8px;
 }
 .single-background {
 	position: relative;
